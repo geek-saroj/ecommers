@@ -16,6 +16,7 @@ root.render(
     <PayPalScriptProvider deferLoading={true}>
           <App />
         </PayPalScriptProvider>
+        
     </HelmetProvider>
     </StoreProvider>
   </React.StrictMode>
